@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Management System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>Employee Management System</h1>
+
+  <div style="margin-bottom: 12px;">
+    <button onclick="displayEmployees()">Display Employees</button>
+    <button onclick="calculateTotalSalaries()">Calculate Total Salaries</button>
+    <button onclick="displayHREmployees()">Display HR Employees</button>
+    <button onclick="findEmployeeById(3)">Find Employee by ID</button>
+  </div>
+
+  <div id="employeeDetails">Click a button to show results...</div>
+
+  <!-- JS 必须放在 body 最后，且路径与文件位置一致 -->
+  <script src="employee_details.js"></script>
+</body>
+</html>
